@@ -32,7 +32,7 @@ void printCommand(void)
 }
 
 /**********************************************************
- * generate_id: Generates random 12-digit long integers. *
+ * generateID: Generates random 12-digit long integers. *
  *********************************************************/
 ID generateID(void)
 {
@@ -43,7 +43,7 @@ ID generateID(void)
 }
 
 /**********************************************************
- * generate_id: Generates random 12-digit long integers. *
+ * printCashier: Print cashier to out as xml.             *
  *********************************************************/
 void printCashier(const cashier *c)
 {
