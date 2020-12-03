@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cashier_Database>
+    <cashier suspended=true>
+      <lastName>Alele</lastName>
+      <firstName>Famous</firstName>
+      <id>004</id>
+    </cashier>
+</Cashier_Database>
