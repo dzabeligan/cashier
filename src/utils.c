@@ -52,7 +52,7 @@ void printCashier(const cashier *c)
     ezxml_t firstName = ezxml_add_child(cashier, "firstName", 0);
     ezxml_t lastName = ezxml_add_child(cashier, "lastName", 0);
     
-    char idAsString[ID_LENGTH];
+    char idAsString[ID_LENGTH + 1];
     sprintf(idAsString, "%ld", c->id);
 
     ezxml_set_txt(id, idAsString);
