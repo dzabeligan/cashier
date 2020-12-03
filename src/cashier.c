@@ -20,7 +20,7 @@ void addCashier(void)
 {
     cashier *newCashier;
 
-    newCashier = malloc(sizeof(cashier) + 25);
+    newCashier = malloc(sizeof(cashier));
     if (newCashier == NULL)
     {
         printf("\nDatabase is full; can't add more cashiers.\n");
